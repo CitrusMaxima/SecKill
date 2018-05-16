@@ -56,6 +56,7 @@
           <groupId>c3p0</groupId>
           <artifactId>c3p0</artifactId>
           <version>0.9.1.2</version>
+          <scope>runtime</scope>
       </dependency>
 
       <!-- 3.DAO框架：MyBatis依赖 -->
