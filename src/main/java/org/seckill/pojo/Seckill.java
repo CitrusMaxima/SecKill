@@ -19,11 +19,11 @@ public class Seckill {
 
     private Date createTime;
 
-    public long getScekillId() {
+    public long getSeckillId() {
         return seckillId;
     }
 
-    public void setScekillId(long seckillId) {
+    public void setSeckillId(long seckillId) {
         this.seckillId = seckillId;
     }
 
@@ -70,7 +70,7 @@ public class Seckill {
     @Override
     public String toString() {
         return "Seckill{" +
-                "scekillId=" + seckillId +
+                "seckillId=" + seckillId +
                 ", name='" + name + '\'' +
                 ", number=" + number +
                 ", startTime=" + startTime +
