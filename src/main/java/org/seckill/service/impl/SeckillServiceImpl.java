@@ -1,6 +1,5 @@
 package org.seckill.service.impl;
 
-import com.sun.org.apache.regexp.internal.RE;
 import org.seckill.dao.SeckillDao;
 import org.seckill.dao.SuccessKilledDao;
 import org.seckill.dto.Exposer;
