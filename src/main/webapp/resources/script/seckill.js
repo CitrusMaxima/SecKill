@@ -6,12 +6,12 @@ var seckill = {
     // 验证手机号
     validatePhone: function (phone) {
         if (phone && phone.length == 11 && !isNaN(phone)) {
-            /*var reg_phone = /^1[3,5,7,8]\d{9}$/;
+            var reg_phone = /^1[3,5,7,8]\d{9}$/;
             if (reg_phone.test(phone)) {
                 return true;
             } else {
                 return false;
-            }*/
+            }
             return true;
         } else {
             return false;
