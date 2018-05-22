@@ -87,6 +87,16 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taglibs</groupId>
+            <artifactId>taglibs-standard</artifactId>
+            <version>1.2.5</version>
+        </dependency>
 
         <!-- 5.spring依赖 -->
         <!-- spring核心依赖 -->
