@@ -2,8 +2,6 @@ package org.seckill.service;
 
 import org.seckill.dto.Exposer;
 import org.seckill.dto.SeckillExecution;
-import org.seckill.exception.RepeatKillException;
-import org.seckill.exception.SeckillCloseException;
 import org.seckill.exception.SeckillException;
 import org.seckill.pojo.Seckill;
 

@@ -6,7 +6,6 @@ import org.seckill.dto.SeckillResult;
 import org.seckill.enums.SeckillStateEnum;
 import org.seckill.exception.RepeatKillException;
 import org.seckill.exception.SeckillCloseException;
-import org.seckill.exception.SeckillException;
 import org.seckill.pojo.Seckill;
 import org.seckill.service.SeckillService;
 import org.slf4j.Logger;
