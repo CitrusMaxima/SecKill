@@ -25,7 +25,7 @@ import java.util.List;
  * Created by CitrusMaxima on 2018/5/19.
  */
 @Service
-public class SeckillServiceImpl implements SeckillService{
+public class SeckillServiceImpl implements SeckillService {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 

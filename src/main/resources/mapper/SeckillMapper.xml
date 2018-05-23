@@ -7,17 +7,17 @@
     <update id="reduceNumber">
         <!-- 具体sql语句 -->
         UPDATE
-          seckill
+        seckill
         SET
-          number = number - 1
+        number = number - 1
         WHERE
-          seckill_id = #{seckillId}
+        seckill_id = #{seckillId}
         AND
-          start_time <![CDATA[ <= ]]> #{killTime}
+        start_time <![CDATA[ <= ]]> #{killTime}
         AND
-          end_time >= #{killTime}
+        end_time >= #{killTime}
         AND
-          number > 0;
+        number > 0;
     </update>
 
     <select id="queryById" resultType="Seckill" parameterType="long">

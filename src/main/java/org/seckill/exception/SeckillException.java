@@ -4,7 +4,7 @@ package org.seckill.exception;
  * 秒杀相关业务异常
  * Created by CitrusMaxima on 2018/5/19.
  */
-public class SeckillException extends RuntimeException{
+public class SeckillException extends RuntimeException {
 
     public SeckillException(String message) {
         super(message);

@@ -2,7 +2,7 @@ package org.seckill.dto;
 
 /**
  * Created by CitrusMaxima on 2018/5/19.
- *
+ * <p>
  * 暴露秒杀地址DTO
  */
 public class Exposer {

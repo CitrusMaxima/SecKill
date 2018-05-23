@@ -60,7 +60,7 @@ public class SeckillServiceTest {
             logger.error(e.getMessage(), e);
         }
     }
-    
+
     // 集成测试代码完整逻辑，注意可重复执行
     @Test
     public void testSeckillLogic() throws Exception {

@@ -14,16 +14,16 @@
         <!-- 如何告诉MyBatis把结果映射到SuccessKilled的同时映射seckill属性 -->
         <!-- 可以自由控制SQL -->
         SELECT
-          sk.seckill_id,
-          sk.user_phone,
-          sk.create_time,
-          sk.state,
-          s.seckill_id "seckill.seckill_id",
-          s.name "seckill.name",
-          s.number "seckill.number",
-          s.start_time "seckill.start_time",
-          s.end_time "seckill.end_time",
-          s.create_time "seckill.create_time"
+        sk.seckill_id,
+        sk.user_phone,
+        sk.create_time,
+        sk.state,
+        s.seckill_id "seckill.seckill_id",
+        s.name "seckill.name",
+        s.number "seckill.number",
+        s.start_time "seckill.start_time",
+        s.end_time "seckill.end_time",
+        s.create_time "seckill.create_time"
         FROM success_killed sk
         INNER JOIN seckill s ON sk.seckill_id = s.seckill_id
         WHERE sk.seckill_id = #{seckillId}
