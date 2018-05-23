@@ -12,7 +12,7 @@
     <div class="container">
         <div class="panel panel-default">
             <div class="panel-heading text-center">
-                <h2>秒杀列表</h2>
+                <h1>秒杀列表</h1>
             </div>
             <div class="panel-body">
                 <table class="table table-hover">

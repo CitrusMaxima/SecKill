@@ -8,17 +8,19 @@
 <body>
     <div class="container">
         <div class="panel panel-default text-center">
-            <h2>
-                <div class="pannel-heading">${seckill.name}</div>
-            </h2>
-        </div>
-        <div class="panel-body">
-            <h2 class="text-danger">
-                <!-- 显示time图标 -->
-                <span class="glyphicon glyphicon-time"></span>
-                <!-- 展示倒计时 -->
-                <span class="glyphicon" id="seckill-box"></span>
-            </h2>
+            <h1>
+                <div class="pannel-heading">
+                    <h1>${seckill.name}</h1>
+                </div>
+                <div class="panel-body">
+                    <h1 class="text-danger">
+                        <!-- 显示time图标 -->
+                        <span class="glyphicon glyphicon-time"></span>
+                        <!-- 展示倒计时 -->
+                        <span class="glyphicon" id="seckill-box"></span>
+                    </h1>
+                </div>
+            </h1>
         </div>
     </div>
     <!-- 登录弹出层，输入电话 -->
