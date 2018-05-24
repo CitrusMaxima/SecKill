@@ -1,5 +1,5 @@
 <html>
-<body>
-<h1>Hello World!</h1>
-</body>
+<script type="text/javascript">
+    window.location.href = "${pageContext.request.contextPath}/seckill/list";
+</script>
 </html>
